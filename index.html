@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2 JavaScript</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <section class="segment imgcard"> 
+                <img id="logo" src="./assets/img/Club_UC_1925.png" alt="Logo">
+            </section>
+            <section class="segment stickers">
+                <h3>ESCOGE TUS STICKERS (máximo 10)</h3>
+                <div class="cards">
+                    <div class="card">
+                        <img src="./assets/img/sticker1.png" alt="Sticker 1">
+                        <input id="card-1" type="number" min="0" max="10" value="0">
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/sticker2.png" alt="Sticker 2">
+                        <input id="card-2" type="number" min="0" max="10" value="0">
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/sticker3.jpg" alt="Sticker 3">
+                        <input id="card-3" type="number" min="0" max="10" value="0">
+                    </div>
+                </div>
+                    <div class="btn-verificar">
+                    <button id="btn-verificar">Verificar</button>
+                </div>
+                    <p id="txt-verificar"></p>
+                
+            </section>
+        
+            <section class="segment clave">
+                <h3>INGRESA EL PASSWORD</h3>
+                <div class="password">
+                    <select name="digito-0" id="digito-0">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                    <select name="digito-1" id="digito-1">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                    <select name="digito-2" id="digito-2">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </div>
+                <div class="btn-ingresar">
+                <button id="btn-ingresar">Ingresar</button>
+            </div>
+                <p id="txt-password"></p>
+            </section>
+        </div>
+    </section>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
