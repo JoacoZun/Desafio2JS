@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h3 {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.segment {
+    background-color: #c5f1ec;
+    border: 1px solid #00609f;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.imgcard {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.imgcard img {
+    cursor: pointer;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en pantallas más pequeñas */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px; /* Añadir un ancho fijo para las tarjetas */
+}
+
+.card img {
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; 
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card input {
+    width: 50px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00609f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+}
+
+.btn-ingresar, .btn-verificar {
+    display: flex;
+    justify-content: center;
+}
+
+.txt-password{
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: red;
+}
+
+#txt-verificar, #txt-password {
+    margin-top: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.password {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+}
+
+select {
+    padding: 5px;
+}
